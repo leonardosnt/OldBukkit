@@ -1,0 +1,9 @@
+name: LsFight
+main: com.outlook.devleeo.LsFight.LsFight
+version: 1.5
+
+author: DevLeeo
+
+commands:
+    fight:
+      description: Comandos do fight.

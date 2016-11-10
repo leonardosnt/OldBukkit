@@ -1,0 +1,41 @@
+##
+# LsFight
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuracao
+# Plugin criado para: www.atomgamers.com
+##
+
+#Configuracoes do autoStart
+#Horarios: Coloque 'dia-hora:minuto' caso queira todos os dias coloca apenas 'hora:minuto'
+AutoStart:
+  Ativar: true
+  Horarios:
+    - 'sexta-19:10'
+    - 'domingo-18:00'
+
+#Premios para o vencedor do evento.
+Premios:
+  Tag:
+    Ativar: true
+    Formato: '&5[Lutador] '
+  Dinheiro:
+    Ativar: true
+    Quantidade: 50000
+
+#Configuracoes dos avisos "iniciando";
+Iniciando:
+  NumeroDeAvisos: 6
+  TempoEntreAvisos: 10
+
+#Minimo de participantes para o evento iniciar
+MinimoParticipantes: 5
+
+#Tempo entre as lutas em segundos.
+TempoEntreLutas: 5
+
+#items da luta.
+Items:
+ - 268 1
