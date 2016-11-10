@@ -1,0 +1,7 @@
+name: LsMobsVsPlayers
+main: com.outlook.devleeo.LsMvP.Main
+version: 1.8
+author: DevLeeo
+commands:
+    mvp:
+        description: Comandos do MvP

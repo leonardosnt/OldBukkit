@@ -1,0 +1,174 @@
+##
+# LsMobsVsPlayers
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuracao
+# Suporte via e-mail ou http://www.atomgamers.com/community/index.php?showuser=61
+##
+
+##############################
+# Configuracoes de autostart #
+##############################
+
+#Caso queira todos os dias. coloque apenas 'hora:minuto'
+#Use "dia-hora:minuto"
+AutoStart:
+  Ativado: true
+  Horarios:
+    - 'segunda-10:24'
+    - 'sexta-11:55'
+
+#########################
+# Configuracoes do boss #
+#########################
+
+#Vida do boss
+BossHealth: 7000
+
+#Nome do boss
+BossName: '&bMVP &c{vida} / {max} <3'
+
+########################
+# Outras configuraçoes #
+########################
+
+#Ativar TabCompleter ?
+AtivarTabCompleter: true
+
+#Mobs
+#Os mobs sao spawnados aleatoriamente no boss a cada X segundos.
+#Delay é o delay que os mobs vao spawnar. ex: 10 = cada 10 segundos X mobs serao spawnados aleatoriamente
+Mobs:
+  Delay: 10
+  Zombie:
+    Spawnar: true
+    Quantidade: 10
+  Blaze:
+    Spawnar: true
+    Quantidade: 10
+  Skeleton:
+    Spawnar: true
+    Quantidade: 10
+  Witch:
+    Spawnar: true
+    Quantidade: 10
+  Spider:
+    Spawnar: true
+    Quantidade: 10
+  PigZombie:
+    Spawnar: true
+    Quantidade: 10
+  Slime:
+    Spawnar: true
+    Quantidade: 10
+
+#"Capetinha" sao baby zombies mutantes... hu3
+SpawnarCapetinhas:
+  Ativar: true
+  Quantidade: 10
+
+#Minimo de participantes para iniciar
+MinimoParticipantes: 5
+
+#Configuracoes da TAG
+Tag:
+  Ativada: true
+  Formato: '&c[Destemido] &r'
+
+#Configuracoes dos premios
+#Configuração do item: " - ID QTD nome:&aNome_:P ou enchant:nivel"
+#Ex1: - 310 1 nome:§cCapacete protection:10 unbreaking:10
+#Ex2: - 310 1 protection:10 thorns:7
+Premios:
+  Dinheiro: 100_000
+  ItemsRandomicos: true
+  Items:
+    - 276 1 nome:&3Espada_Boss sharpness:10 fireaspect:5
+    - 310 1 nome:&3Capacete_Boss protection:5 unbreaking:5
+    - 311 1 nome:&3Peitoral_Boss protection:5 unbreaking:5
+    - 312 1 nome:&3Calca_Boss protection:5 unbreaking:5
+    - 313 1 nome:&3Bota_Boss protection:5 unbreaking:5
+
+###############################
+# Configuracoes das mensagens #
+###############################
+
+#Fica antes das mensagens.
+Prefix: '&3[MvP]&b'
+
+#Mensagem informando que o evento ja foi iniciado.
+JaFoiIniciado: '{prefix} &cO evento ja esta acontecendo'
+
+#Mensagem nao acontecendo
+NaoAcontecendo: '{prefix} &cO evento nao esta acontecendo.'
+
+#Mensagem entrou no evento.
+EntrouNoEvento: '{prefix} Voce entrou no evento, boa sorte!'
+
+#Mensagem ja participando do enveto
+JaParticipando: '{prefix}&c Voce ja esta participando do evento.'
+
+#Mensagem nao participando do enveto
+NaoParticipando: '{prefix}&c Voce nao esta participando do evento.'
+
+#Mensagem saiu do evento.
+Saiu: '{prefix} Voce saiu do evento.'
+
+#Mensagem finalizando evento.
+Finalizando: '{prefix} Voce sera teleportado para saida em &f10s'
+
+#Mensagem enviada ao servidor quando jogador morre
+MensagemMorte:
+  Ativar: true
+  Mensagem: '{prefix}&f {player}&b morreu no evento.'
+  
+#Mensagem, avisos, tempo...
+Iniciando:
+  NumeroDeAvisos: 6
+  TempoEntreAvisos: 10
+  Mensagem:
+    - ''
+    - '{prefix} Evento MobsVsPlayers aberto.'
+    - '{prefix} Para participar use &f/mvp participar.'
+    - '{prefix} Iniciando evento em &f%seg%&b segundos.'
+    - '{prefix} Total de participantes: &f%participantes%'
+    - ''
+
+#Mensagem evento iniciado
+EventoIniciado:
+  - ''
+  - '{prefix} Evento fechado.'
+  - '{prefix} O evento termina quando o boss for morto.'
+  - '{prefix} Boa sorte a todos os participantes.'
+  - ''
+
+#Mensagem minimo participantes
+MinParticipantes:
+  - ''
+  - '{prefix} Evento finalizado.'
+  - '{prefix} Numero de participantes menor do que &f5.'
+  - ''
+
+#Mensagem de status do evento
+EventoStatus:
+  - '{prefix} Status:'
+  - ' &3%>>%&b Acontecendo:&f %acontecendo%'
+  - ' &3%>>%&b Vida Do Boss: &f%vida%'
+  - ' &3%>>%&b Jogadores participando:&f %participantes%'
+
+#Mensagem de evento finalizado
+EventoFinalizado:
+  - ''
+  - '{prefix} Evento finalizado.'
+  - '{prefix} Vencedor:&f {ganhador}'
+  - '{prefix} O vencedor recebeu &f100k&b + tag {tag}&b+ 1 item raro.'
+  - ''
+
+#Mensagem de evento finalizado por admin
+FinalizadorPorAdmin:
+  - ''
+  - '{prefix} Evento finalizado por um admin.'
+  - '{prefix} Participantes teleportados para saida.'
+  - ''
