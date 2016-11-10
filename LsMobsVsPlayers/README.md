@@ -3,4 +3,4 @@
  - Legendchat.jar
  - Vault.jar
  
-Criado em: Novembro ~ Dezembro de 2014
+***Criado em: Novembro ~ Dezembro de 2014***
