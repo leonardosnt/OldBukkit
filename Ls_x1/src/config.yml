@@ -1,0 +1,33 @@
+#>
+# Ls_x1
+#
+# Criador: DevLeeo
+# Contato: DevLeeo@outlook.com 
+#
+# Plugin criado para: www.atomgamers.com
+#>
+
+#Custo para cada participante do x1
+Custo: 51000
+
+#Premio ao vencedor do x1
+Premio: 100000
+
+#Tempo em segundos que o desafiado tem para aceitar o convite de x1.
+ConviteTempo: 60
+
+#Tempo maximo em minutos de duracao do x1.
+TempoMaximo: 20
+
+#Tempo em segundos para recolher os items do chao.
+TempoRecolherItems: 30
+
+#Bloquear comandos durante o x1.
+BloquearComandos: true
+
+#Comandos Liberados, caso BloquearComandos for true;
+ComandosLiberados:
+ - /g
+ - /tell
+ - /r
+ - /.

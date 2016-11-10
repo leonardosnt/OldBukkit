@@ -1,0 +1,7 @@
+name: Ls_x1
+main: com.outlook.devleeo.lsx1.Main
+version: 1.4
+author: DevLeeo
+commands:
+    x1:
+        description: Comandos do x1.

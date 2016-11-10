@@ -1,0 +1,73 @@
+##                                ##
+# Ls_x1 Configuracao das Mensagens #
+##                                ## 
+
+Prefix: '&6[x1]'
+
+NomeDoServidor: '&6[AtomGamers]'
+
+Usage:
+  - '&6[AtomGamers] &eComandos do x1. '
+  - ' &6/x1 desafiar <Jogador> &c- &eDesafia um jogador para x1.'
+  - ' &6/x1 aceitar &c- &eAceita o desafio de x1.'
+  - ' &6/x1 recusar &c- &eRecusa o desafio de x1.'
+  - ' &6/x1 camarote &c- &eTeleporta para o camarote.'
+  - ' &6/x1 setpos1 &c- &eSeta a posicao 1 do x1.'
+  - ' &6/x1 setpos2 &c- &eSeta a posicao 2 do x1.'
+  - ' &6/x1 setsaida &c- &eSeta a saida do x1.'
+  - ' &6/x1 setcamarote &c- &eSeta o camarote do x1.'
+
+EmAndamento: '{prefix} &cJa existe um convite ou x1 em andamento, aguarde.'
+
+DesafiarASiMesmo: '{prefix} &cErro: Voce nao pode desafiar a si mesmo.'
+
+cancelado: '{prefix} &cX1 cancelado, um dos lutadores nao possui dinheiro suficiente'
+
+SemDinheiro: '{prefix} &cErro: Voce nao tem dinheiro suficiente. (51k)'
+
+SemDinheiro2: '{prefix} &cErro: {desafiado} nao tem dinheiro suficiente. (51k)'
+
+SemPermissao: '{server} &cErro: Voce nao tem acesso a este comando.'
+
+DesafioEnviado: '{prefix} &eDesafio enviado para &c{desafiado}'
+
+DesafioPendente: '{prefix} &cErro: Voce nao tem um desafio pendente.'
+
+x1Empate: '{prefix} &eTivemos empate, x1 finalizado.'
+
+FinalizadoPorAdm: '{prefix} &ex1 finalizado por um administrador.'
+
+Disconectou: '{prefix} &c{player} &edisconectou, x1 cancelado.'
+
+ComandosBloqueados: '{prefix} &cVoce nao pode usar comandos durante o x1.'
+
+RecolherItens: '{prefix} &eVoce tem 30 segundos para recolher os items do chao.'
+
+NenhumAcontecendo: '{prefix} &cErro: Nao ha nenhum x1 acontecendo no momento.'
+
+CamaroteNaoDefinido: '{prefix} &cErro: O camarote nao foi definido.'
+
+TeleportadoCamarote: '{prefix} &eVoce foi teleportado para o camarote.'
+
+VoceFoiDesafiado: 
+ - '{prefix} &eVoce foi desafiado por &c{player} &epara um x1.'
+ - '{prefix} &eUse &c/x1 aceitar &eou &c/x1 recusar &epara aceitar/recusar.'
+
+MensagemDesafiado:
+ - '{prefix}&c {player}&e desafiou &c{desafiado} &epara um x1.'
+ - '{prefix}&c {desafiado}&e tem 1 minuto para aceitar ou recusar.'
+
+PreferiuIgnorar: 
+ - '{prefix}&c {desafiado}&e preferiu ignorar o desafio de &c{player}'
+ 
+AceitouDesafio:
+ - '{prefix}&c {desafiado}&e aceitou o desafio, Iniciando x1.'
+
+RecusouDesafio:
+ - '{prefix}&c {desafiado}&e recusou o desafio de &c{player}'
+
+VenceuMorte:
+ - '{prefix}&c {perdedor} &emorreu, &a{vencedor}&e e o vencedor.'
+
+VenceuDisconnect:
+ - '{prefix}&c {perdedor} &edisconectou, &a{vencedor}&e e o vencedor.'
