@@ -1,0 +1,6 @@
+name: SimpleClansExt
+main: com.outlook.devleeo.SimpleClansExt.SimpleClansExt
+author: DevLeeo
+version: 1.0.0
+commands:
+    resetally:

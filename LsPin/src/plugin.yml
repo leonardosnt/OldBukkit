@@ -1,0 +1,8 @@
+name: LsPin
+main: com.outlook.devleeo.LsPin.LsPin
+version: AtomGamers (1.0)
+website: http://www.atomgamers.com/community/index.php?showuser=61
+author: DevLeeo
+commands:
+   pin:
+     description: Comandos pin.

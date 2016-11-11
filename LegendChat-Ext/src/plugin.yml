@@ -1,0 +1,9 @@
+name: LegendChat-Ext
+main: com.outlook.devleeo.legendchatExt.Main
+version: 1.1
+
+website: http://www.atomgamers.com/community/index.php?showuser=61
+author: DevLeeo
+
+commands:
+    chat:

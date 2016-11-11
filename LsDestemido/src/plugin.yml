@@ -1,0 +1,7 @@
+name: LsDestemido
+main: com.outlook.devleeo.com.lsdestemido.Main
+version: 1.0
+author: DevLeeo
+commands:
+    destemido:
+        description: Ve o destemido atual.

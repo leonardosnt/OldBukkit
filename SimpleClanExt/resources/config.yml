@@ -1,0 +1,5 @@
+# SimpleClansExt #
+
+MEMBROS_POR_CLAN: 15
+
+MENSAGEM_LIMITE: '&cSeu clan ja possui o maximo de membros permitidos.'

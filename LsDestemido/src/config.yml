@@ -1,0 +1,17 @@
+#--------------------------------#
+#         LsDestemido            #  
+#      Criado por DevLeeo        #
+#  Contato: devleeo@outlook.com  #
+#--------------------------------#
+
+Tag: "&e[&6•&eDestemido&6•&e] "
+
+Premio: 100000
+
+DestemidoAtual: "&e[&6•&eDestemido&6•&e] &fDestemido atual: &c{player}"
+
+Nenhum: "&e[&6•&eDestemido&6•&e] &fO dragão ainda não foi morto."
+
+NovoDestemido: 
+ - "&e[&6•&eDestemido&6•&e] &aO dragão foi morto por &c{player}"
+ - "&e[&6•&eDestemido&6•&e] &c{player} &arecebeu 100k + tag &e[&6•&eDestemido&6•&e]"

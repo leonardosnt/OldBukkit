@@ -1,0 +1,29 @@
+##
+# PluginName
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuração
+# Suporte via e-mail ou http://www.atomgamers.com/community/index.php?showuser=61
+##
+
+# Nome do canal global (chat global) tem que ser o mesmo do legendchat.
+Canal_Global: global
+
+Tell_Desativado: '&3[AtomGamers] &cEste jogador esta com o tell desativado.'
+
+Chat_global_ativado: '&3[AtomGamers] &bChat global ativado.'
+Chat_global_desativado: '&3[AtomGamers] &bChat global desativado.'
+
+Chat_tell_ativado: '&3[AtomGamers] &bChat tell ativado.'
+Chat_tell_desativado: '&3[AtomGamers] &bChat tell desativado.'
+
+Todos_chat_ativado: '&3[AtomGamers] &bTodos os chats foram ativados.'
+Todos_chat_desativado: '&3[AtomGamers] &bTodos os chats foram desativados.'
+
+Usage:
+ - '&3[AtomGamers] &bOpcoes do chat.'
+ - '  &3/chat global &f-&b Desativa ou ativa o chat global.'
+ - '  &3/chat tell &f-&b Desativa ou ativa o chat tell.'
+ - '  &3/chat * &f-&b Desativa ou ativa todos os chats'

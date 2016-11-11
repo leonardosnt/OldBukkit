@@ -1,0 +1,14 @@
+name: LsVipTrade
+main: com.outlook.devleeo.LsVipTrade.Main
+version: 1.0
+
+website: http://www.atomgamers.com/community/index.php?showuser=61
+author: DevLeeo
+
+commands:
+    vendervip:
+        description: Comando usado para vender vip.
+    comprarvip:
+        description: Comando usado para comprar um vip.
+    cancelarvenda:
+        description: Cancela a venda.

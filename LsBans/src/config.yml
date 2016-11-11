@@ -1,0 +1,66 @@
+##
+# LsBans
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuracao
+##
+
+# Configuracoes do MySQL
+# Ativar mysql, se falço o armazenamente sera feito via SQLite
+# Porta da conexao default: 3306
+# Host/IP da conexao default: localhost
+# Usuario da conexao default: root
+# Senha da conexao default: nenhuma
+# Nome da sua database
+# Nome da table que armazena os bans.
+# Nome da table que armazena o historico de ips.
+MySQL:
+  Ativar: false
+  Porta: 3306
+  Host: localhost
+  Usuario: root
+  Senha: ''
+  Database: Server
+  Tabela_Banimentos: ls_bans
+  Tabela_Ips: ls_ips
+
+# Configuracoes do ban.
+# 1: Banir o IP ao banir um jogador.
+# 2: Tempo que o jogador sera banido caso o "tempo" nao seja informado.
+# 3: Enviar mensagem global informando o banimento.
+#
+Ban:
+  Banir_IP: true
+  Tempo_Default: 0
+  Enviar_Mensagem_Global: true
+
+Kick:
+  Enviar_Mensagem_Global: true
+
+Unban:
+  Enviar_Mensagem_Global: true
+
+#Configuracao das Mensagens
+# <motivo> = Motivo do banimento
+# <admin> = Nome do adminstrador/staffer que baniu.
+# <tempo> = Tempo em segundos que foi banido.
+Mensagens:
+  Prefix: '&4[LsBans] '
+  Motivo_Default: 'Nao especificado'
+  Ban:
+    Temporario: '&c<admin> baniu voce temporariamente do servidor.\nMotivo: <motivo>\nTempo: <tempo>m\n\n&c&6www.atomgamers.com'
+    Permanente: '&c<admin> baniu voce permanentemente do servidor.\nMotivo: <motivo>\n\n&c&6www.atomgamers.com'
+    Global:
+      Temporario: '&c<admin> baniu <player> por <tempo>m, Motivo: <motivo>'
+      Permanente: '&c<admin> baniu <player> permanentemente, Motivo: <motivo>'
+    Join:
+      Temporario: '&cVoce foi banido temporariamente do servidor por <admin>.\nMotivo: <motivo>\nTempo restante: <tempo>m\n\n&c&6www.atomgamers.com'
+      Permanente: '&cVoce foi banido permanentemente do servidor por <admin>.\nMotivo: <motivo>\n\n&c&6www.atomgamers.com'
+      Ip_Banido: '&cSeu IP esta banido.'
+  Kick:
+    Mensagem: '&cVoce foi kickado do servidor por <admin>\nMotivo: <motivo>'
+    Global: '&c<admin> kickou <player> do servidor. Motivo: <motivo>'
+  Unban:
+    Global: '&a<admin> desbaniu <player>.'

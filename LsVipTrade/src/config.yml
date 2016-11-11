@@ -1,0 +1,51 @@
+##
+# LsVipTrade
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuração
+# Suporte via e-mail ou http://www.atomgamers.com/community/index.php?showuser=61
+##
+
+#Plugins de Vip suportados:
+# VipZero
+# EasyVip
+
+#Preco maximo e minimo da venda do vip
+#Default: 1 Mil e 50 Milhoes.
+Preco:
+  Max: 50_000_000
+  Min: 1_000
+
+#Tempo maximo em segundos para a venda ser finalizada caso o vip nao seja comprado por ninguem.
+Tempo_Maximo_Venda: 120
+
+#Tempo em segundos entre as mensagens de venda.
+Tempo_Entre_Mensagens: 10
+
+Mensagens:
+  Erro_Preco_Maximo: '&6[AtomGamers] &cErro: Preco maximo permitido é 50 Milhoes.'
+  Dinheiro_Suficiente: '&6[AtomGamers] &cErro: Voce nao possui dinheiro suficiente.'
+  Usage_Vender: '&6[AtomGamers]&e Use /venderVip <Key> <Preco>'
+  Comprar_Seu_Vip: '&6[AtomGamers]&c Erro: Voce nao pode comprar o vip.'
+  Jogador_Nao_Vendendo: '&6[AtomGamers]&c Erro: Este jogador nao esta vendendo nenhum vip.'
+  Usage_Comprar: '&6[AtomGamers]&e Use /comprarVip <Jogador>'
+  Vip_Sendo_Vendido: '&6[AtomGamers] &cErro: Ja existe uma venda acontecendo, aguarde.'
+  Key_Invalida: '&6[AtomGamers] &cErro: Key invalida.'
+  Confirmar_Venda: '&6[AtomGamers] &eVoce esta prestes a vender 1 vip por <preco>, para confirmar digite o comando novamente, para cancelar digite &c/cancelarvenda'
+  Nenhum_Vip: '&6[AtomGamers] &cErro: Nao ha nenhum vip sendo vendido no momento.'
+  Nao_Vendendo: '&6[AtomGamers] &cErro: Voce nao esta vendendo nenhum vip.'
+  Venda_Cancelada: '&6[AtomGamers] &cVenda cancelada.'
+  Preco_Invalido:
+    - '&6[AtomGamers] &cPreco invalido.'
+    - '&6[AtomGamers] &ePrecos validos: 1k a 50kk'
+    - '&6[AtomGamers] &e1k = 1.000 (1 Mil)'
+    - '&6[AtomGamers] &e1kk = 1.000.000 (1 Milhao)'
+  Vendendo:
+    - '&6[AtomGamers] &c<vendedor> &eesta vendendo um vip.'
+    - '&6[AtomGamers] &ePreco: &c<preco>'
+    - '&6[AtomGamers] &ePara comprar use &c/comprarvip <vendedor>'
+  Venda_Finalizada:
+    - '&6[AtomGamers] &eVenda finalizada.'
+    - '&6[AtomGamers] &eComprador: &c<player>'

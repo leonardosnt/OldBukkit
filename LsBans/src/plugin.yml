@@ -1,0 +1,22 @@
+name: LsBans
+main: com.outlook.devleeo.LsBans.LsBans
+version: 1.0.0
+
+# Suporte: devleeo@outlook.com
+author: DevLeeo
+
+commands:
+    lsbans:
+      description: Informacoes sobre o plugin.
+    ban:
+      description: Usado para banir um jogador especifico.
+    unban:
+      description: Usado para desbanir um jogador especifico.
+    checkbans:
+      description: Usado para ver o historico de bans de um jogador especifico.
+    kick:
+      description: Usado para kickar um jogador especifico do servidor.
+    banip:
+      description: Usado para banir um ip especifico.
+    unbanip:
+      description: Usado para desbanir um ip especifico.

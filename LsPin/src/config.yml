@@ -1,0 +1,60 @@
+##
+# LsPin
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+#
+# Arquivo de Configuração
+# Plugin criado para: www.atomgamers.com
+##
+
+#Usar numeros e letras no pin.
+NUMEROS_E_LETRAS: true
+
+#Usar letras maiusculas e minusculas
+MAIUSCULAS_E_MINUSCULAS: true
+
+#Tamanho do pin
+TAMANHO: 10
+
+#Numero maximo de tentativas para errar o /pin recuperar
+MAX_TENTATIVAS: 5
+
+#Ativar mensagem avisando que a conta nao possui pin ao entrar?
+ATIVAR_MENSAGEM_JOIN: true
+
+#tempo de bloqueio do /pin recuperar em minutos
+TEMPO_BLOQUEIO: 5
+
+#Ativar comando /pin atual para jogadores.
+ATIVAR_PIN_ATUAL: true
+
+## ARMAZENAMENTO ##
+
+#Tempo em minutos para salvar os pins.
+TEMPO_SALVAR_PINS: 5
+
+#Salvar os pins quando o plugin for desativado
+SALVAR_QUANDO_DESATIVAR: true
+
+## MENSAGENS ##
+
+PREFIX: '&3[Pin]'
+
+ATINGIU_MAX_TENTATIVAS: '<prefix> &cVoce atingiu o numero maximo de tentativas, aguarde 5m'
+
+MENSAGEM_JOIN: '<prefix> &bSua conta nao possui pin, para maior seguranca aconselhamos que ative seu pin, para ativar use &c/pin ativar.'
+
+PIN_INCORRETO: '<prefix>\n&cO PIN digitado nao correspode ao PIN desta conta.'
+
+PRECISA_LOGADO: '<prefix> &cVoce precisa estar registrado e\ou logado para ativar ou ver seu pin.'
+
+CONTA_RECUPERADA: '<prefix>\n&bConta recuperada com sucesso.\nSenha alterada, ao entrar use &c/login <senha>'
+
+PIN_ATUAL: '<prefix>\n&bPIN atual: &c<pin>\n&bLembre-se nao passe seu pin para ninguem.'
+
+JA_POSSUI_PIN: '<prefix> &cSua conta ja possui pin.'
+
+NAO_POSSUI_PIN: '<prefix> &cEsta conta nao possui pin.'
+
+PIN_ATIVADO: '<prefix>\n&bPIN ativado com sucesso em sua conta. \nAnote exatamente como esta aqui, letras maiusculas e minusculas.\nSeu Pin &c<pin>'
