@@ -1,0 +1,6 @@
+name: LsTerrenos
+main: com.outlook.devleeo.LsTerrenos.Main
+version: 1.0.4
+author: DevLeeo
+commands:
+   terreno:

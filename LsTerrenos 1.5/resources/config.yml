@@ -1,0 +1,76 @@
+##
+# LsTerrenos
+#
+# Criador: DevLeeo
+# Contato: devleeo@outlook.com 
+##
+
+#Tamanho minimo de um terreno.
+Tamanho:
+  Minimo: 10
+  Maximo: 100
+
+#Se true ira gerar apenas cercas, e nao deixara o terreno plano.
+Gerar_Apenas_Cercas: true
+
+#Preco por bloco
+#Ex: o jogador compra um terreno 10x10
+#O preco seria [tamanho * preco_por_bloco] (10 * 100) = 1000
+Preco_Por_Bloco: 100
+
+#Gerar casas
+Gerar_Casas: true
+
+#Pvp desativado ou ativado por default.
+Default_Pvp: 'desativado'
+
+#Limite de comandos bloqueados permitidos por terreno.
+Limite_Comandos:
+  Ativar: true
+  Limite: 5
+
+#Quantidade de terrenos...
+#Basta colocar o nome do grupo : quantidade de terrenos.
+#O nome do seu grupo aqui deve ser o mesmo do seu plugin de permissions
+Grupos:
+  default: 2
+  vip: 5
+
+#0 = badrock 
+#256 = altura maxima permitida no servidor por default.
+#Portanto ira proteger da bedrock ate o limite do servidor.
+Altura:
+  Min: 0
+  Max: 256
+
+#Mundos que nao e possivel comprar\vender terrenos.
+MundosBloqueados:
+  - 'world_the_end'
+  - 'world_nether'
+
+#Custo de alguns comandos.
+Custos:
+  pvp: 5000
+  blockcmd: 1000
+
+#Comandos que nao podem ser bloquedos
+Comandos:
+  - login
+  - spawn
+  - register
+ 
+#Lista de blocos que nao serao deletados quando o terreno for deletado.
+SafeBlocks:
+  - 7
+  - 2
+  - 24
+  - 56
+  - 129
+  - 13
+  - 1
+  - 16
+  - 14
+  - 21
+  - 12
+  - 3
+  - 15
