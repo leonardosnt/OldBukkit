@@ -1,0 +1,7 @@
+name: LsGuerreiro
+main: com.outlook.devleeo.lsguerreiro.Main
+version: 1.0
+author: DevLeeo
+commands:
+    guerreiro:
+        description: Comandos do evento guerreiro.

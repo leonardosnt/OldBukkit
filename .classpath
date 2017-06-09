@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="LegendChat-Ext/src"/>
+	<classpathentry kind="src" path="Ls_x1/src"/>
+	<classpathentry kind="src" path="LsBans/src"/>
+	<classpathentry kind="src" path="LsDestemido/src"/>
+	<classpathentry kind="src" path="LsFight/src"/>
+	<classpathentry kind="src" path="LsMobsVsPlayers/src"/>
+	<classpathentry kind="src" path="LsPin/src"/>
+	<classpathentry kind="src" path="LsTerrenos 1.5/src"/>
+	<classpathentry kind="src" path="LsVipTrade/src"/>
+    <classpathentry kind="src" path="LsGuerreiro/src"/>
+	<classpathentry kind="src" path="SimpleClanExt/src"/>
+	<classpathentry kind="lib" path="Common Libs/AuthMe.jar"/>
+	<classpathentry kind="lib" path="Common Libs/bukkit-1.5.2.jar"/>
+	<classpathentry kind="lib" path="Common Libs/Legendchat.jar"/>
+	<classpathentry kind="lib" path="Common Libs/SimpleClans-Legacy-2.4.4.jar"/>
+	<classpathentry kind="lib" path="Common Libs/Vault.jar"/>
+	<classpathentry kind="lib" path="Common Libs/WorldEdit.jar"/>
+	<classpathentry kind="lib" path="Common Libs/WorldGuard.jar"/>
+	<classpathentry kind="lib" path="Compiled/Ls_x1.jar"/>
+	<classpathentry kind="lib" path="Compiled/LsTerrenos.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
