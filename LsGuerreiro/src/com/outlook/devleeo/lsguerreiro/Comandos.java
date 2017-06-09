@@ -158,7 +158,7 @@ public class Comandos implements CommandExecutor {
 
           if (participantes.size() < Main.getInstance().getConfig().getInt("MinimoPlayers")) {
             sender
-                .sendMessage(Mensagens.prefix + " § necessário ter no m§nimo " + Main.getInstance().getConfig().getInt("MinimoPlayers") + " participantes para iniciar o evento.");
+                .sendMessage(Mensagens.prefix + " § necessário ter no mínimo " + Main.getInstance().getConfig().getInt("MinimoPlayers") + " participantes para iniciar o evento.");
             return true;
           }
 
