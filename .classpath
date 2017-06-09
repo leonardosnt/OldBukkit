@@ -9,7 +9,7 @@
 	<classpathentry kind="src" path="LsPin/src"/>
 	<classpathentry kind="src" path="LsTerrenos 1.5/src"/>
 	<classpathentry kind="src" path="LsVipTrade/src"/>
-    <classpathentry kind="src" path="LsGuerreiro/src"/>
+	<classpathentry kind="src" path="LsGuerreiro/src"/>
 	<classpathentry kind="src" path="SimpleClanExt/src"/>
 	<classpathentry kind="lib" path="Common Libs/AuthMe.jar"/>
 	<classpathentry kind="lib" path="Common Libs/bukkit-1.5.2.jar"/>
