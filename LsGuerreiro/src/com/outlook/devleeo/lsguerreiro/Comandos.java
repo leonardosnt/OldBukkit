@@ -40,8 +40,8 @@ public class Comandos implements CommandExecutor {
         sender.sendMessage("§3 /guerreiro participar §7- §bEntra no evento guerreiro.");
         sender.sendMessage("§3 /guerreiro status §7- §bMostra o status do evento guerreiro.");
         sender.sendMessage("§3 /guerreiro iniciar §7- §bInicia o evento guerreiro.");
-        sender.sendMessage("§3 /guerreiro forcestop §7- §bFor§a a finaliza§§o do guerreiro.");
-        sender.sendMessage("§3 /guerreiro forcestart §7- §bFor§a a inicializa§§o do guerreiro.");
+        sender.sendMessage("§3 /guerreiro forcestop §7- §bForça a finalização do guerreiro.");
+        sender.sendMessage("§3 /guerreiro forcestart §7- §bForça a inicialização do guerreiro.");
         sender.sendMessage("§3 /guerreiro setentrada §7- §bSeta o local de entrada do guerreiro.");
         sender.sendMessage("§3 /guerreiro setsaida §7- §bSeta o local de saida do guerreiro.");
         return true;
@@ -61,8 +61,8 @@ public class Comandos implements CommandExecutor {
         sender.sendMessage("§3 /guerreiro participar §7- §bEntra no evento guerreiro.");
         sender.sendMessage("§3 /guerreiro status §7- §bMostra o status do evento guerreiro.");
         sender.sendMessage("§3 /guerreiro iniciar §7- §bInicia o evento guerreiro.");
-        sender.sendMessage("§3 /guerreiro forcestop §7- §bFor§a a finaliza§§o do guerreiro.");
-        sender.sendMessage("§3 /guerreiro forcestart §7- §bFor§a a inicializa§§o do guerreiro.");
+        sender.sendMessage("§3 /guerreiro forcestop §7- §bForça a finalização do guerreiro.");
+        sender.sendMessage("§3 /guerreiro forcestart §7- §bForça a inicialização do guerreiro.");
         sender.sendMessage("§3 /guerreiro setentrada §7- §bSeta o local de entrada do guerreiro.");
         sender.sendMessage("§3 /guerreiro setsaida §7- §bSeta o local de saida do guerreiro.");
         return true;
@@ -75,7 +75,7 @@ public class Comandos implements CommandExecutor {
             return true;
           }
           if (data.getData().getString("saida.world") == null || data.getData().getString("entrada.world") == null) {
-            sender.sendMessage(Mensagens.prefix + "§c Voc§ precisa setar a entrada e saida antes de iniciar o evento.");
+            sender.sendMessage(Mensagens.prefix + "§c Você precisa setar a entrada e saida antes de iniciar o evento.");
             return true;
           }
           acontecendo = true;
@@ -158,7 +158,7 @@ public class Comandos implements CommandExecutor {
 
           if (participantes.size() < Main.getInstance().getConfig().getInt("MinimoPlayers")) {
             sender
-                .sendMessage(Mensagens.prefix + " § necess§rio ter no m§nimo " + Main.getInstance().getConfig().getInt("MinimoPlayers") + " participantes para iniciar o evento.");
+                .sendMessage(Mensagens.prefix + " § necessário ter no m§nimo " + Main.getInstance().getConfig().getInt("MinimoPlayers") + " participantes para iniciar o evento.");
             return true;
           }
 
