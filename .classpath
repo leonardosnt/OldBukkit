@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="LegendChat-Ext/src"/>
 	<classpathentry kind="src" path="Ls_x1/src"/>
+	<classpathentry kind="src" path="LsMagnata/src"/>
+	<classpathentry kind="src" path="LsMito/src"/>
 	<classpathentry kind="src" path="LsBans/src"/>
 	<classpathentry kind="src" path="LsDestemido/src"/>
 	<classpathentry kind="src" path="LsFight/src"/>

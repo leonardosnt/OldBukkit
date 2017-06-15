@@ -1,0 +1,79 @@
+# LsMito
+# Developed by DevLeeo (leonardosc)
+# Email: devleeo@outlook.com
+# Skype: DevLeeo
+
+# Configuracoes
+# Mostrar mensagens de "debug" (atualizando etc...) no console.
+# Delay em segundos para atualizar a prefix do mito etc...
+#
+# Prefix
+#   Chat: 
+#       Ativar: true ou false
+#       Prefix: Prefix desejada
+#   Cabeca: 
+#       Ativar: true ou false
+#       Prefix: Prefix desejada
+#
+# Raio:
+#   Ativar: true ou false
+#
+# Morcegos:
+#   Ativar: true ou false
+#   Quantidade: Quantidade desejada
+#
+# Mensagens:
+#   Atual: Mensagem quando o jogador da /mito
+#   Novo: Mensagem quando um novo jogar vira o mito.
+#   Entrou: Mensagem quando o mito entra no servidor.
+#   Saiu: Mensagem quando o mito sai do servidor.
+#   SemPermissao: Mensagem quando o jogador nao tem permissao para usar um certo comando.
+Settings:
+    DebugMessages: true
+    UpdateDelay: 1200
+    Prefix:
+        Chat:
+            Enable: true
+            Prefix: '&5[Mito] &r'
+        Head:
+            Enable: true
+            Prefix: '&5[Mito] &r'
+
+    Spawn:
+        LightningEffect: 
+            Enable: true
+
+        Bats:
+            Enable: true
+            Name:
+                Enable: true
+                Name: '&5&lParabens &c&l{player}'
+            Amount: 10
+            DespawnDelay: 5
+
+    Messages:
+        None: '&5[Mito] &cNao ha um mito.'
+        Current: '&5[Mito] &cMito atual: {player}'
+        New: '\n&5&l[Mito] &c{player} e o novo mito do pvp.\n&r'
+        Joined: '\n&5&l[Mito] &c{player} entrou no servidor.\n&r'
+        Exited: '\n&5&l[Mito] &c{player} saiu do servidor.\n&r'
+        NotEnoughPermissions: '&cVoce nao tem acesso a este comando.'
+
+
+# Comandos que seram executados quando um jogador se tornar mito.
+# {newmito} = Novo mito.
+# {oldmito} = Caso seja nulo o comando nao sera executado.
+RunCommands:
+    Enable: true
+    Commands:
+        - 'money give {newmito} 1000'
+        - 'money take {oldmito} 1000'
+        - 'tell {oldmito} faliceu hu3'
+
+# Permissions que SOMENTE o mito possuiu.
+# Caso outro jogador tenha essa permissao e nao seja mito ela sera removida (prevenir bugs)
+Permissions:
+    Enable: true
+    Permissions:
+        - warp.mito
+        - kit.mito

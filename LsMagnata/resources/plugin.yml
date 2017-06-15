@@ -1,0 +1,8 @@
+name: LsMagnata
+main: com.outlook.devleeo.LsMagnata.LsMagnata
+version: 1.0.0
+author: DevLeeo
+
+commands:
+    magnata:
+        description: 'Use para ver o magnata atual.'

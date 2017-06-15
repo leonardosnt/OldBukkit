@@ -1,0 +1,10 @@
+name: LsMito
+main: com.outlook.devleeo.LsMito.LsMitoPlugin
+version: 0.0.5
+author: DevLeeo
+
+commands:
+    mito:
+        description: Use para ver o mito atual.
+    setmito:
+        description: Use para definir um novo mito.

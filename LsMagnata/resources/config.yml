@@ -1,0 +1,54 @@
+# LsMagnata
+# Desenvolvido por DevLeeo
+# Email: devleeo(a)outlook.com
+# Skype: devleeo
+
+# Configuracoes
+#   Habilitar scoreboard? (tag na cabeca / tab)
+#   Prefix das mensagens
+#   Prefix no chat
+#   Prefix no nome na cabeca
+#   Delay pra checagem, em segundos.
+#   Soltar raio quando um jogador se tornar magnata ?
+#   Enviar informacoes sobre checagem de magnata / permissioes etc... ?
+Settings:
+    EnableScoreboard: true
+    MessagesPrefix: '&2[Magnata] '
+    ChatPrefix: '&2[Magnata]&r '
+    HeadPrefix: '&2[Magnata]&r '
+    CheckDelayInSeconds: 120
+    PlayLightningEffect: true
+    DebugConsole: true
+
+# Permissoes que apenas o magnata pode ter.
+MagnataPermissions:
+    - 'plugindewarp.warp.magnata'
+
+# Mensagens
+#   Quando jogador entrar
+#       Ativar ?
+#       Mensagem 
+#   Quando jogador sair
+#       Ativar ?
+#       Mensagem
+#   Quando o jogador se torna magnata
+#       Ativar ?
+#       Mensagem
+#   Magnata atual
+#       Mensagem
+#   Nenhum magnata
+#       Mensagem
+Messages:
+    Join:
+        Enable: true
+        Message: '\n<prefix>&aO magnata &f<player>&a entrou no servidor.\n&r'
+    Leave:
+        Enable: true
+        Message: '\n<prefix>&aO magnata &f<player>&a saiu no servidor.\n&r'
+    New:
+        Enable: true
+        Message: '\n<prefix>&f<player> &ae o novo magnata do servidor.\n&r'
+    Current:
+        Message: '<prefix>&aMagnata atual: &f<player>'
+    None: 
+        Message: '<prefix>&cNao ha magnata no momento.'
